@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.outer-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container button{
+    width: 350px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: yellowgreen;
+    border: 0px solid black;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.inner-container button:hover{
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
